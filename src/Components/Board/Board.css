@@ -1,0 +1,79 @@
+.board {
+    min-width: 330px;
+    padding: 20px 0px;
+    width: 330px;
+    max-height: 400px;
+    flex-basis: 290px;
+    display: flex;
+    background: white;
+    flex-direction: column;
+    grid-gap: 20px;
+    gap: 20px;
+    border-radius: 10px;
+    background: #ffffff;
+    border: 3px solid #cfbf0f;
+
+}
+
+.board_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+}
+
+.board_header_title {
+    font-weight: bold;
+    font-size: 1rem;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.board_header_title span {
+    color: rgb(145, 145, 145);
+}
+
+.board_header_title_more {
+    cursor: pointer;
+    position: relative;
+}
+
+.board_dropdown {
+    box-shadow: 1px 0px 20px rgba(0, 0, 0, 0.12);
+    padding: 10px 20px;
+    width: 150px !important;
+    cursor: default;
+}
+
+.board_dropdown p {
+    border-bottom: 1px solid #f8f8f8;
+    cursor: pointer;
+}
+
+.board_cards {
+    background-color: transparent;
+    padding: 10px;
+    height: 100%;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    overflow-y: auto;
+}
+
+.board_add-card {
+    background-color: #fff;
+    color: #000;
+    border-radius: 10px;
+    box-shadow: 1px 1px 0 1px rgba(0, 0, 0, 0.12);
+    width: 100%;
+    text-align: center;
+}
+
+.board_add-card_edit {
+    background-color: transparent;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+}

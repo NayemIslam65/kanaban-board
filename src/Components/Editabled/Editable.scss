@@ -1,0 +1,77 @@
+.editable {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.editable_display {
+    padding: 6px 12px;
+    border-radius: 3px;
+    background-color: #eee;
+    color: #000;
+    cursor: pointer;
+    width: fit-content;
+    transition: 200ms;
+}
+
+.editable_display:hover {
+    background-color: #ddd;
+}
+
+.editable_edit {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+  input {
+      border: 2px solid #cfbf0f;
+      border-radius: 5px;
+      outline: none;
+      font-size: 1rem;
+      padding: 10px;
+  }
+
+}
+.cardinfo_box input {
+    border: 2px solid #cfbf0f !important;
+    border-radius: 5px;
+    outline: none;
+    font-size: 1rem;
+    padding: 10px;
+}
+
+.editable_edit_footer {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.editable_edit_footer button {
+    cursor: pointer;
+    border-radius: 5px;
+    outline: none;
+    background-color: #cfbf0f;
+    color: #fff;
+    border: none;
+    height: 42px;
+    transition: 100ms ease;
+    padding: 10px 30px;
+}
+
+.editable_edit_footer button:hover {
+    background-color: #046daa;
+}
+
+.editable_edit_footer button:active {
+    transform: translateY(2px);
+}
+
+.editable_edit_footer .closeIcon {
+    cursor: pointer;
+    height: 24px;
+    width: 24px;
+}
+
+.add_item_input {
+    width: 500px;
+}
